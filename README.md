@@ -112,43 +112,6 @@ After: AI calculates costs → Recommends mediation → Saves ₹2.9L → Family
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- AWS Account with appropriate permissions
-- Node.js 18+ and Python 3.9+
-- AWS CLI configured
-- AWS CDK installed
-
-### Quick Setup (Hackathon Demo)
-```bash
-# Clone the repository
-git clone https://github.com/your-org/nyaya-mitra.git
-cd nyaya-mitra
-
-# Install dependencies
-npm install
-pip install -r requirements.txt
-
-# Deploy infrastructure
-cdk deploy --all
-
-# Configure Connect instance
-aws connect create-instance --identity-management-type CONNECT_MANAGED
-
-# Test voice interface
-curl -X POST https://api-gateway-url/voice/test
-```
-
-### Environment Variables
-```bash
-export AWS_REGION=ap-south-1
-export BEDROCK_MODEL_ID=anthropic.claude-3-5-sonnet-20241022-v2:0
-export CONNECT_INSTANCE_ID=your-connect-instance-id
-export DYNAMODB_TABLE_NAME=nyaya-mitra-cases
-```
-
----
 
 ## 📁 Project Structure
 
@@ -239,3 +202,4 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - Document all API endpoints
 
 ---
+
