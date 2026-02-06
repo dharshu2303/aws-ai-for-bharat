@@ -113,30 +113,6 @@ After: AI calculates costs → Recommends mediation → Saves ₹2.9L → Family
 ---
 
 
-## 📁 Project Structure
-
-```
-nyaya-mitra/
-├── README.md                           # This file
-├── requirements.md                     # Detailed requirements (100 lines)
-├── design.md                          # System design (200 lines)
-├── functional-requirements-aws-mapping.md  # FR to AWS services mapping
-├── src/
-│   ├── lambda/                        # Lambda functions
-│   │   ├── voice-processor/           # Voice input/output handler
-│   │   ├── cost-calculator/           # ML cost prediction
-│   │   └── document-generator/        # Legal document creation
-│   ├── ml-models/                     # SageMaker model code
-│   │   ├── cost-prediction/           # XGBoost cost model
-│   │   └── success-probability/       # Random Forest classifier
-│   ├── connect/                       # Amazon Connect flows
-│   └── greengrass/                    # Edge computing components
-├── infrastructure/                    # AWS CDK code
-├── data/                             # Sample legal data
-├── docs/                             # Additional documentation
-└── tests/                            # Unit and integration tests
-```
-
 ---
 
 ## 🎯 Use Cases
@@ -183,4 +159,5 @@ AI: "Succession certificate needed. Cost: ₹25K via revenue court.
 - **PII protection** - tokenization and automatic deletion
 
 ---
+
 
