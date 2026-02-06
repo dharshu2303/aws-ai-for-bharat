@@ -184,22 +184,3 @@ AI: "Succession certificate needed. Cost: ₹25K via revenue court.
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md).
-
-### Development Workflow
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open Pull Request
-
-### Code Standards
-- Follow AWS Well-Architected Framework principles
-- Write unit tests for all Lambda functions
-- Use TypeScript for infrastructure code
-- Document all API endpoints
-
----
-
